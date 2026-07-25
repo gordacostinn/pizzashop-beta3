@@ -92,8 +92,9 @@ body.pedido-abierto .ventas-panel {
   }
 
   .pedido-preview .datos-pedido #campo-envio {
-    grid-column: 1 / -1;
+    grid-column: 1;
     margin: 0;
+    align-self: start;
   }
 
   .pedido-preview .datos-pedido legend {

@@ -52,12 +52,12 @@
   flex: 1 1 0;
   width: auto;
   align-items: center;
-  justify-content: center;
   margin: 0 !important;
   padding: 0 6px !important;
   text-align: center;
   white-space: nowrap;
   vertical-align: top;
+  align-content: center;
 }
 
 /* El texto completo no entra en media columna en celular. */

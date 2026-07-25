@@ -39,6 +39,22 @@
     margin-top: 6px;
   }
 
+  /* Los métodos de pago se leen mejor uno debajo del otro. */
+  .pedido-preview input[name="pago"] + label {
+    display: block;
+    width: 100%;
+    margin: 0 0 6px;
+    padding: 8px 10px;
+  }
+
+  /* Juan y Joni vuelven a ser opciones compactas, no botones gigantes. */
+  .pedido-preview #campo-envio .selector-repartidor label {
+    display: inline-block;
+    width: auto;
+    margin: 0 4px 4px 0;
+    padding: 6px 9px;
+  }
+
   #campo-pago-hibrido {
     grid-template-columns: 1fr;
   }

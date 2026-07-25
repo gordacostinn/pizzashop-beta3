@@ -55,14 +55,13 @@
   }
 
   .pedido-preview input[name="entrega"] + label {
-    display: inline-flex;
+    display: -webkit-inline-box;
     width: calc(50% - 3px);
     height: 38px;
     min-height: 38px;
     align-items: center;
-    justify-content: center;
     margin: 0 2px 0 0;
-    padding: 8px 6px;
+    padding: 6px 6px;
     font-size: .72rem;
   }
 

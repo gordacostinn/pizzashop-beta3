@@ -91,8 +91,19 @@ body.pedido-abierto .ventas-panel {
     border: 0;
   }
 
+  .pedido-preview .datos-pedido > fieldset:first-of-type {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .pedido-preview .datos-pedido > fieldset:last-of-type {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
   .pedido-preview .datos-pedido #campo-envio {
     grid-column: 1;
+    grid-row: 3;
     margin: 0;
     align-self: start;
     min-width: 0;

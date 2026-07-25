@@ -1,4 +1,4 @@
-🍕 # PizzaShop Beta 3
+# 🍕 PizzaShop Beta 3
 
 PizzaShop is a web application built to simplify the daily operation of a local pizzeria.
 

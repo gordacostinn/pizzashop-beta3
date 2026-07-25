@@ -4,9 +4,9 @@ PizzaShop is a web application built to simplify the daily operation of a local 
 
 Instead of being just another practice project, PizzaShop was created to solve a real workflow problem by helping manage orders, inventory, deliveries, payments, and daily sales in a simple and intuitive interface.
 
-✨ ## Features
+## ✨ Features
 
-🍕 ### Product Management
+### 🍕 Product Management
 
 Pizza catalog with multiple varieties
 
@@ -18,7 +18,7 @@ Business orders
 
 Custom orders
 
-📦 ### Inventory Management
+### 📦 Inventory Management
 
 Real-time pizza dough tracking
 
@@ -28,7 +28,7 @@ Manual stock adjustments
 
 Automatic stock validation before confirming orders
 
-🛒 ### Order Management
+### 🛒 Order Management
 
 Live order preview
 
@@ -42,7 +42,7 @@ Complete order history
 
 Remove confirmed orders
 
-🚚 ### Delivery System
+### 🚚 Delivery System
 
 Pickup or delivery
 
@@ -52,7 +52,7 @@ Driver assignment
 
 Delivery statistics by driver
 
-💳 ### Payment Methods
+### 💳 Payment Methods
 
 Cash
 
@@ -60,7 +60,7 @@ Bank Transfer
 
 Hybrid Payment (Cash + Transfer)
 
-📊 ### Daily Summary
+### 📊 Daily Summary
 
 Total income
 
@@ -78,7 +78,7 @@ Delivery totals
 
 Complete order history
 
-🛠 ### Technologies
+### 🛠 Technologies
 
 HTML5
 
@@ -88,7 +88,7 @@ JavaScript (Vanilla)
 
 LocalStorage
 
-🚀 ## Running the project
+## 🚀 Running the project
 
 Clone the repository:
 
@@ -100,7 +100,7 @@ index.html
 
 No installation or external dependencies are required.
 
-🎯 ## Project Goals
+## 🎯 Project Goals
 
 The main objective of this project is to practice JavaScript by building software that solves a real business problem.
 
@@ -122,13 +122,13 @@ Order processing.
 
 Responsive design.
 
-📈 ## Current Status
+## 📈 Current Status
 
 PizzaShop is currently under active development.
 
 Future updates will continue improving usability, performance, and adding new features based on real-world feedback.
 
-👨‍💻 Author
+# 👨‍💻 Author
 
 Santiago Perazzo
 

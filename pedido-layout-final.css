@@ -25,7 +25,7 @@
   height: 42px !important;
   min-height: 42px !important;
   box-sizing: border-box;
-  font-size: 14px !important;
+  font-size: 13px !important;
   line-height: 1 !important;
 }
 
@@ -37,6 +37,17 @@
   margin: 0 2px 0 0;
   padding: 0 6px !important;
   text-align: center;
+  white-space: nowrap;
+}
+
+/* El texto completo no entra en media columna en celular. */
+.pedido-preview .datos-pedido #retiro + label {
+  font-size: 0 !important;
+}
+
+.pedido-preview .datos-pedido #retiro + label::after {
+  content: "Retiro";
+  font-size: 13px;
 }
 
 .pedido-preview .datos-pedido input[name="pago"] + label {
@@ -65,7 +76,7 @@
 }
 
 .pedido-preview .datos-pedido #costo-envio::placeholder {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .pedido-preview .datos-pedido .selector-repartidor {

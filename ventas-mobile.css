@@ -95,6 +95,12 @@ body.pedido-abierto .ventas-panel {
     grid-column: 1;
     margin: 0;
     align-self: start;
+    min-width: 0;
+  }
+
+  .pedido-preview .datos-pedido #campo-envio #costo-envio {
+    width: 100%;
+    min-width: 0;
   }
 
   .pedido-preview .datos-pedido legend {

@@ -132,4 +132,4 @@ Future updates will continue improving usability, performance, and adding new fe
 
 Santiago Perazzo
 
-LinkedIn: [https://www.linkedin.com/in/gordon-costin](https://www.linkedin.com/in/santiago-perazzo-b73807417/)
+LinkedIn: [https://www.linkedin.com/in/gordacostinn](https://www.linkedin.com/in/santiago-perazzo-b73807417/)

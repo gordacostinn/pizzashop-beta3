@@ -1,0 +1,115 @@
+.resumen {
+  text-align: left;
+}
+
+.resumen > .eyebrow,
+.resumen > h1 {
+  text-align: center;
+}
+
+.summary-section {
+  margin-top: 28px;
+}
+
+.summary-section h2 {
+  margin: 0 0 10px;
+  color: var(--texto);
+  font-size: .9rem;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.income-grid {
+  grid-template-columns: 1.35fr 1fr 1fr;
+}
+
+.summary-card {
+  min-height: 105px;
+  padding: 18px 14px;
+  border: 1px solid var(--borde);
+  border-radius: 12px;
+  background: var(--fondo);
+  text-align: center;
+}
+
+.summary-card p {
+  margin: 0 0 9px;
+  color: var(--suave);
+  font-size: .86rem;
+  line-height: 1.2;
+}
+
+.summary-card strong {
+  color: var(--rojo);
+  font-size: 1.35rem;
+}
+
+.main-income {
+  border-color: var(--rojo);
+  background: var(--rojo);
+}
+
+.main-income p,
+.main-income strong {
+  color: #fff;
+}
+
+.main-income strong {
+  font-size: 1.75rem;
+}
+
+.stock-card-summary {
+  background: #fff;
+}
+
+.delivery-grid {
+  max-width: 440px;
+}
+
+.resumen > #ver-pedidos-final {
+  display: block;
+  margin: 28px auto 0;
+}
+
+.resumen > .link-button {
+  margin-top: 16px;
+}
+
+@media (max-width: 600px) {
+  .summary-section {
+    margin-top: 22px;
+  }
+
+  .income-grid,
+  .summary-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 9px;
+  }
+
+  .main-income {
+    grid-column: 1 / -1;
+  }
+
+  .summary-card {
+    min-height: 88px;
+    padding: 14px 8px;
+  }
+
+  .summary-card p {
+    font-size: .77rem;
+  }
+
+  .summary-card strong {
+    font-size: 1.1rem;
+  }
+
+  .main-income strong {
+    font-size: 1.5rem;
+  }
+}

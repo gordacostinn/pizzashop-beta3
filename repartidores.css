@@ -1,0 +1,45 @@
+.selector-repartidor {
+  margin-top: 10px;
+}
+
+.selector-repartidor span {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+#campo-pago-hibrido {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+#campo-pago-hibrido[hidden] {
+  display: none;
+}
+
+#campo-pago-hibrido label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: .75rem;
+}
+
+#campo-pago-hibrido input {
+  min-width: 0;
+  width: 100%;
+  padding: 7px;
+  border: 1px solid var(--borde);
+  border-radius: 7px;
+}
+
+@media (max-width: 600px) {
+  .pedido-preview .selector-repartidor {
+    margin-top: 6px;
+  }
+
+  #campo-pago-hibrido {
+    grid-template-columns: 1fr;
+  }
+}

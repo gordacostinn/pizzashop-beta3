@@ -94,6 +94,7 @@
     min-height: 38px;
     padding: 7px;
     font-size: .72rem;
+    margin-top: 6px
   }
 
   .pedido-preview fieldset #campo-envio #costo-envio::placeholder {

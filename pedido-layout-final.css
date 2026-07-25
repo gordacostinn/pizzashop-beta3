@@ -48,7 +48,7 @@
 }
 
 .pedido-preview .datos-pedido input[name="entrega"] + label {
-  display: inline-flex !important;
+  display: inline-block;
   flex: 1 1 0;
   width: auto;
   align-items: center;
